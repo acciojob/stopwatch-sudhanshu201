@@ -1,2 +1,23 @@
 
 /* Your CSS Code here. */
+.container {
+    display: flex;
+    justify-content: space-between;  /* Distributes space between buttons */
+    align-items: center;             /* Vertically centers the buttons */
+    width: 50%;                      /* Adjust width as needed */
+    margin: 0 auto;                  /* Centers the container horizontally */
+    padding: 50px;
+}
+
+#time {
+    display: flex;
+   /* Distributes space between buttons */
+    align-items: center;             /* Vertically centers the buttons */
+    width: 50%;                      /* Adjust width as needed */
+    margin: 0 auto;                  /* Centers the container horizontally */
+    margin-left: 40%;
+}
+
+#timeclr {
+    color: red;
+}

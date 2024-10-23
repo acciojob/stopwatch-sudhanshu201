@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-	<div id="time"></div>
-	<button onclick="start()" id="start">start</button>
-	<button onclick="pause()" id="pause">pause</button>
-	<button onclick="stop()" id="stop">stop</button>
-    	<script type="text/javascript" src="./script.js">
-</script>
+<div class="container">
+    <button type="button" id="start">start</button>
+    <button type="button" id="stop">stop</button>
+    <button type="button" id="pause">pause</button>
+</div>
+<h2 id="time"><span id="timeclr">Time:</span><span id="hr">00</span>:<span id="min">00</span>:<span id="sec">00</span>:<span id="ms">00</span></h2>
 
+    <script src="./script.js"></script>
 </body>
-
 </html>
